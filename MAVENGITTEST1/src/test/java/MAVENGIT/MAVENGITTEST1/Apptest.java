@@ -14,6 +14,7 @@ public class Apptest {
 		System.setProperty("webdriver,chrome.exe","chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		System.out.println("test git maven integration");
+		System.out.println("commit2");
 		driver.close();
 		
 	}
